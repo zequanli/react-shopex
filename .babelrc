@@ -1,0 +1,9 @@
+{
+    "presets": ["env", "react"],
+    //在开发时才启用HMR和Catch Error
+    "env": {
+        "development": {
+            "presets": ["react-hmre"]
+        }
+    }
+}
